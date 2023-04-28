@@ -3,6 +3,10 @@
     overflow: hidden;
     margin-left: 20rem;
 }
+
+ 
+
+
 h3 {
     font-weight: lighter
 }
@@ -26,14 +30,32 @@ button {
     background-color: aqua
     
 }
-ul {
-    background-color: aqua;
-    list-style-type: none;
+header ul li {
+   
+   display: inline;
+   list-style-type: style none;
+   margin-left: 20px;
+   font-weight: bold;
+   border: solid;
+   padding:30px;
+}
+
     
+
+.col-1 {
+    grid-column: span 1;
+    grid-row: 1;
+    font-family: fantasy;
+    font-size: xx-large;
 }
-li {
-    float: right;
+.col-2 {
+    grid-column: span 1;
+    grid-row: 1;
+    display: grid;
+    align-content: center;
+    justify-content: center;
 }
+  
 
 .elige {
     margin: 90px;
